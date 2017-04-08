@@ -1,0 +1,87 @@
+/*页面初始化*/
+html, body,h1,h2,h3,p,ol,ul,li,a{
+
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+}
+/*通用样式*/
+
+
+
+h1{
+    margin: 10px 0 15px 0;
+    color: white;
+    text-align:center;
+}
+h2{
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+h3{
+    margin: 15px 0 15px 0;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+
+h2,h3{color: #21B4BA;
+}
+
+ul{
+    padding: 0 0 0 50px;
+}
+ol{
+    padding: 0 0 0 50px 
+}
+/*网页布局*/
+.header{
+    padding: 10px;
+    background: #b56663
+}
+
+
+.main-content{
+    width: 500px;
+    padding: 20px;
+    border:1px solid #dddddd;
+    margin: 30px auto 0 auto;
+
+}
+
+
+/*页面导航条*/
+.nav {
+    padding-left: 0;
+    text-align: center;
+}
+.nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav li{
+    display: inline;
+}
+
+
+/*菜单列表*/
+.recipes{
+    list-style-type: none;
+    padding: 0;
+}
+.recipes li{
+    border: 1px solid #b56663;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.recipes h3{
+    border-bottom: 0;
+}
+.recipes a{
+    color: #7facaa;
+    text-decoration: none;
+}
